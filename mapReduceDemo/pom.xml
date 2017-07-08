@@ -6,7 +6,6 @@
 	<groupId>net.hudson</groupId>
 	<artifactId>mapReduceDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 
 	<name>mapReduceDemo</name>
 	<description>mapReduceDemo</description>
