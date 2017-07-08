@@ -10,6 +10,7 @@ To test you will need:
 ----
 	git clone https://github.com/p4p4l4gu4x/mapReduceDemo.git 
 ----
+
 * Start MongoDB server;
 * Bluid and Run this project;
 * Test via URL: http://localhost:8080/books/category/count;
