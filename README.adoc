@@ -13,5 +13,14 @@ To test you will need:
 ----
 
 * Start MongoDB server;
-* Bluid and Run this project;
+* Bluid project;
+[indent=0]
+----
+	mvn clean install
+----
+* Run this project;
+[indent=0]
+----
+	java -jar mapReduceDemo-0.0.1-SNAPSHOT.jar
+----
 * Test via URL: http://localhost:8080/books/category/count;
