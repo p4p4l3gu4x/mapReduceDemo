@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.hudson.domain.mapReduce.CategoryReduced;
 import net.hudson.service.BooksService;
 
-@RestController(value="/books")
+@RestController
 public class BookController {
 	
 	@Autowired
@@ -23,7 +23,7 @@ public class BookController {
 	
 	@GET
 	@Produces(value= MediaType.APPLICATION_JSON_VALUE)
-	@RequestMapping("/category/count")
+	@RequestMapping("/books/category/count")
 	public Response cityListMapReduce(){
 		Response response;
 		List<CategoryReduced> categoryReducedList = bookService.countCategory();
